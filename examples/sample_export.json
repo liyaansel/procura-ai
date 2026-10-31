@@ -1,0 +1,55 @@
+{
+  "export_version": "1.0",
+  "rfp_run_id": "sample-run-not-a-live-evaluation",
+  "created_at": "2026-10-28T00:00:00+00:00",
+  "status": "complete",
+  "procurement": {
+    "title": "Managed Cloud Platform Services",
+    "category": "Cloud infrastructure and managed services",
+    "scope": "Provide a secure, reliable managed cloud platform for a mid-sized organization."
+  },
+  "criteria_snapshot": [
+    {"criterion_id": "technical_fit", "name": "Technical fit", "description": "Fit to stated functional and technical requirements.", "weight": 25, "max_score": 10, "is_active": true, "evaluation_guidance": "Score only requirements evidenced in the proposal."},
+    {"criterion_id": "security", "name": "Security and privacy", "description": "Security controls, privacy practices, and risk management.", "weight": 20, "max_score": 10, "is_active": true, "evaluation_guidance": "Distinguish specific controls from general claims."},
+    {"criterion_id": "delivery", "name": "Delivery plan", "description": "Feasibility and clarity of timeline, milestones, and staffing.", "weight": 15, "max_score": 10, "is_active": true, "evaluation_guidance": "Reward specific milestones and accountable roles."},
+    {"criterion_id": "support", "name": "Support and service levels", "description": "Support model, availability, escalation, and service commitments.", "weight": 15, "max_score": 10, "is_active": true, "evaluation_guidance": "Use only stated service commitments."},
+    {"criterion_id": "experience", "name": "Relevant experience", "description": "Relevant delivery experience and the quality of references.", "weight": 15, "max_score": 10, "is_active": true, "evaluation_guidance": "Separate documented references from unsupported claims."},
+    {"criterion_id": "commercial_value", "name": "Commercial value", "description": "Price transparency, assumptions, and overall commercial value.", "weight": 10, "max_score": 10, "is_active": true, "evaluation_guidance": "Do not infer missing costs; flag unclear assumptions."}
+  ],
+  "provider": {"name": "Example only", "model": "not-used"},
+  "prompt_version": "1.0",
+  "schema_version": "1.0",
+  "suppliers": [
+    {
+      "supplier_name": "Asterion Cloudworks",
+      "submission_date": "2026-10-01",
+      "experience_rating": 4,
+      "status": "evaluated",
+      "overall_summary": "Example scorecard showing the JSON export structure; not a provider evaluation.",
+      "risks": ["Confirm data egress pricing before award."],
+      "warnings": [],
+      "absolute_score": 76.0,
+      "ppi": 100.0,
+      "eligible_supplier_count": 1,
+      "rank": 1,
+      "tie_break_explanation": "Ranked first by the mandatory PPI/date/experience/name ordering.",
+      "criteria": [
+        {"criterion_id": "technical_fit", "name": "Technical fit", "score": 8, "max_score": 10, "weight": 25, "justification": "Example: addresses the stated platform requirements.", "evidence": "Example evidence excerpt from the proposal.", "page_number": 2, "validation_status": "valid", "warnings": [], "benchmark": 8, "gap": 0, "relative_percentage": 100, "benchmark_convention": null},
+        {"criterion_id": "security", "name": "Security and privacy", "score": 7, "max_score": 10, "weight": 20, "justification": "Example: describes security controls with some detail.", "evidence": "Example security evidence excerpt.", "page_number": 3, "validation_status": "valid", "warnings": [], "benchmark": 7, "gap": 0, "relative_percentage": 100, "benchmark_convention": null},
+        {"criterion_id": "delivery", "name": "Delivery plan", "score": 9, "max_score": 10, "weight": 15, "justification": "Example: includes clear milestones and ownership.", "evidence": "Example delivery evidence excerpt.", "page_number": 2, "validation_status": "valid", "warnings": [], "benchmark": 9, "gap": 0, "relative_percentage": 100, "benchmark_convention": null},
+        {"criterion_id": "support", "name": "Support and service levels", "score": 8, "max_score": 10, "weight": 15, "justification": "Example: offers a defined support model.", "evidence": "Example support evidence excerpt.", "page_number": 3, "validation_status": "valid", "warnings": [], "benchmark": 8, "gap": 0, "relative_percentage": 100, "benchmark_convention": null},
+        {"criterion_id": "experience", "name": "Relevant experience", "score": 7, "max_score": 10, "weight": 15, "justification": "Example: cites relevant prior work.", "evidence": "Example experience evidence excerpt.", "page_number": 4, "validation_status": "valid", "warnings": [], "benchmark": 7, "gap": 0, "relative_percentage": 100, "benchmark_convention": null},
+        {"criterion_id": "commercial_value", "name": "Commercial value", "score": 6, "max_score": 10, "weight": 10, "justification": "Example: pricing is present but some assumptions need confirmation.", "evidence": "Example commercial evidence excerpt.", "page_number": 4, "validation_status": "valid", "warnings": [], "benchmark": 6, "gap": 0, "relative_percentage": 100, "benchmark_convention": null}
+      ]
+    }
+  ],
+  "benchmarks": {
+    "technical_fit": 8,
+    "security": 7,
+    "delivery": 9,
+    "support": 8,
+    "experience": 7,
+    "commercial_value": 6
+  },
+  "warnings": []
+}

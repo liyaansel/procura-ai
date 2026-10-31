@@ -1,0 +1,6 @@
+streamlit>=1.50,<2.0
+pandas>=2.2,<3.0
+PyMuPDF>=1.24,<2.0
+openai>=1.50,<3.0
+anthropic>=0.34,<1.0
+pytest>=8.3,<9.0
